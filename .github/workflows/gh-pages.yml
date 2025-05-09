@@ -1,4 +1,4 @@
-name: Deploy Reveal.js Presentation
+name: Deploy Project Blog to GitHub Pages
 
 permissions:
   contents: write
