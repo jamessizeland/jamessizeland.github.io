@@ -14,7 +14,6 @@ const Footer = () => {
         rel="noopener noreferrer"
         className="flex items-center border border-gray-200 rounded-lg p-2 shadow-md hover:bg-gray-100 active:bg-gray-200 transition-colors duration-200 ease-in-out space-x-3"
       >
-        <p>v{pjson.version}</p>
         <IoLogoGithub className="h-7 w-auto" />
         <p>2025</p>
       </a>
