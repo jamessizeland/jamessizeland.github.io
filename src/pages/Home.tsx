@@ -17,7 +17,8 @@ export function HomePage() {
         </p>
       </div>
       <ShowcaseCard
-        link="https://jamessizeland.github.io/Intro-to-Rust/"
+        page="https://jamessizeland.github.io/Intro-to-Rust/"
+        repo="https://github.com/jamessizeland/Intro-to-Rust"
         title="Intro to Rust Presentation"
         tags={["Rust", "Presentation"]}
       >
@@ -31,7 +32,7 @@ export function HomePage() {
       </ShowcaseCard>
       <ShowcaseCard
         image="https://github.com/jamessizeland/cant-hop-game/raw/main/img/cant-hop-ui.gif"
-        link="https://github.com/jamessizeland/cant-hop-game"
+        repo="https://github.com/jamessizeland/cant-hop-game"
         title="Cant Hop Game"
         tags={["Rust", "Game Development", "Tauri", "Mobile"]}
         imagePosition="left"
@@ -49,7 +50,7 @@ export function HomePage() {
       </ShowcaseCard>
       <ShowcaseCard
         image="https://github.com/jamessizeland/peer-to-peer/raw/main/img/p2p.gif"
-        link="https://github.com/jamessizeland/peer-to-peer"
+        repo="https://github.com/jamessizeland/peer-to-peer"
         title="Decentralised Peer to Peer Chat App"
         tags={["Rust", "Iroh", "Tauri", "Mobile"]}
         imagePosition="right"
@@ -65,7 +66,8 @@ export function HomePage() {
       </ShowcaseCard>
       <ShowcaseCard
         image="https://github.com/jamessizeland/bevy-chase-me-game/raw/main/img/gameloop-long.gif"
-        link="https://jamessizeland.github.io/bevy-chase-me-game/"
+        page="https://jamessizeland.github.io/bevy-chase-me-game/"
+        repo="https://github.com/jamessizeland/bevy-chase-me-game/"
         title="Bevy Arcade Game: Chase Me"
         tags={["Bevy", "Rust", "Game Development"]}
         imagePosition="left"
@@ -79,7 +81,7 @@ export function HomePage() {
       </ShowcaseCard>
       <ShowcaseCard
         image="https://github.com/jamessizeland/tauri-chess/raw/main/img/move_logic2.gif"
-        link="https://github.com/jamessizeland/tauri-chess"
+        repo="https://github.com/jamessizeland/tauri-chess"
         title="Tauri Chess"
         tags={["Tauri", "Rust", "Game Development"]}
         imagePosition="right"
@@ -92,7 +94,7 @@ export function HomePage() {
       </ShowcaseCard>
       <ShowcaseCard
         image="https://github.com/jamessizeland/microbit-ble-gamepad/raw/main/img/gamepad.jpg"
-        link="https://github.com/jamessizeland/microbit-ble-gamepad"
+        repo="https://github.com/jamessizeland/microbit-ble-gamepad"
         title="Microbit BLE Gamepad"
         tags={["Rust", "Embedded"]}
         imagePosition="left"
@@ -105,7 +107,7 @@ export function HomePage() {
       </ShowcaseCard>
       <ShowcaseCard
         image="https://github.com/jamessizeland/esp32c3-devkit-demo/raw/main/img/rust_board_v1.2_diagram.png"
-        link="https://github.com/jamessizeland/esp32c3-devkit-demo"
+        repo="https://github.com/jamessizeland/esp32c3-devkit-demo"
         title="ESP32-C3 Devkit Demo"
         tags={["Rust", "Embedded"]}
         imagePosition="right"
@@ -121,7 +123,8 @@ export function HomePage() {
         </p>
       </ShowcaseCard>
       <ShowcaseCard
-        link="https://jamessizeland.github.io/csv-to-ris/"
+        page="https://jamessizeland.github.io/csv-to-ris/"
+        repo="https://github.com/jamessizeland/csv-to-ris/"
         title="CSV to RIS (Research Information System) Converter"
         tags={["SPA", "Utility", "React"]}
       >
@@ -133,7 +136,7 @@ export function HomePage() {
         </p>
       </ShowcaseCard>
       <ShowcaseCard
-        link="https://github.com/jamessizeland/labview-rust-compare"
+        repo="https://github.com/jamessizeland/labview-rust-compare"
         title="LabVIEW vs Rust"
         tags={["Rust", "LabVIEW", "Blog"]}
       >

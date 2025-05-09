@@ -1,10 +1,11 @@
-import { FiExternalLink } from "react-icons/fi"; // Import an icon for the link
+import { FiExternalLink, FiGithub } from "react-icons/fi"; // Import an icon for the link
 import { useState } from "react"; // Import useState for dynamic styles
 interface ShowcaseCardProps {
   title: string;
   children: React.ReactNode;
   image?: string;
-  link: string;
+  repo: string;
+  page?: string;
   tags?: string[];
   imagePosition?: "left" | "right";
 }
@@ -13,7 +14,8 @@ const ShowcaseCard: React.FC<ShowcaseCardProps> = ({
   title,
   children,
   image,
-  link,
+  repo,
+  page,
   tags,
   imagePosition = "left", // Default image position to 'left'
 }) => {
@@ -94,14 +96,25 @@ const ShowcaseCard: React.FC<ShowcaseCardProps> = ({
               ))}
           </div>
           <a
-            href={link}
+            href={repo}
             target="_blank"
             rel="noopener noreferrer"
             className="btn btn-primary btn-sm"
           >
-            View Project
-            <FiExternalLink className="ml-1.5 h-4 w-4" />
+            View Repo
+            <FiGithub className="ml-1.5 h-4 w-4" />
           </a>
+          {page && (
+            <a
+              href={page}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="btn btn-secondary btn-sm"
+            >
+              View Page
+              <FiExternalLink className="ml-1.5 h-4 w-4" />
+            </a>
+          )}
         </div>
       </div>
     </div>
