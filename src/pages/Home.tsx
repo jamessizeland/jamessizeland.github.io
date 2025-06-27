@@ -51,7 +51,7 @@ export function HomePage() {
         </p>
       </ShowcaseCard>
       <ShowcaseCard
-        image="https://github.com/jamessizeland/peer-to-peer/raw/main/img/p2p.gif"
+        image="https://github.com/jamessizeland/peer-to-peer/raw/main/img/chat.png"
         repo="https://github.com/jamessizeland/peer-to-peer"
         title="Decentralised Peer to Peer Chat App"
         tags={["Rust", "Iroh", "Tauri", "Mobile"]}
